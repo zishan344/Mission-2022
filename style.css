@@ -46,7 +46,12 @@
   color: white;
   display: inline-block;
   margin: 4% 2%;
+  transition: 0.4s;
 }
+.ancor-link:hover {
+  background-color: rgba(13, 122, 141, 0.808);
+}
+
 .top-bannar p {
   font-size: 1.2rem;
 }
@@ -103,4 +108,55 @@
 .Community p {
   font-weight: 300;
   font-size: 0.9rem;
+}
+input:focus {
+  outline: none;
+}
+.contact {
+  background-color: black;
+}
+span.from-box-txt-child {
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
+}
+.form-box {
+  background-color: black;
+  color: white;
+  width: 66%;
+  padding: 2px 5px;
+  border: none;
+  border-bottom: 1px solid white;
+}
+textarea#txtid {
+  width: 68%;
+}
+.submit {
+  border: none;
+  cursor: pointer;
+}
+.social {
+  display: flex;
+  gap: 1rem;
+}
+.social a {
+  margin: 0;
+  color: white;
+  font-size: 2rem;
+}
+.contact-title {
+  font: 900;
+  color: white;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.829);
+}
+footer h1 {
+  color: white;
+  font-family: "Lobster", cursive;
+}
+footer p {
+  color: white;
 }
