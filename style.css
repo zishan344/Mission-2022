@@ -1,52 +1,77 @@
 * {
-  margin: 0 auto;
-  padding: 0;
+  margin: 0px auto;
+  padding: 0px;
   list-style: none;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 .container {
   width: 80%;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 .flexibal {
   display: flex;
   align-items: center;
 }
-.half-width {
+.flexibal .half-width {
   width: 50%;
   padding: 2%;
 }
 .half-width img {
   width: 80%;
 }
-.heading-box {
+.half-width .heading-box {
   position: relative;
 }
 .line::after {
   content: "";
   position: absolute;
-  top: 14px;
+  top: 19px;
   left: -12px;
   width: 5px;
-  height: 114px;
-  background-color: rgba(62, 226, 199, 0.678);
+  height: 129px;
+  background-color: rgba(62, 226, 199, 0.68);
 }
-h1 {
-  font-size: 3rem;
-}
-h1.heading {
-  padding-bottom: 2rem;
+.half-width h1 {
+  font-size: 3.5rem;
 }
 .orange-color {
   color: orange;
 }
-.ancor-link {
+.half-width .ancor-link {
   padding: 10px 40px;
   background-color: tomato;
   border-radius: 10px;
   color: white;
   display: inline-block;
   margin: 4% 2%;
+}
+.half-width p {
+  font-size: 1.2rem;
+}
+.flex-card {
+  display: flex;
+  gap: 100px;
+  padding-top: 2rem;
+}
+.flex-card-child {
+  padding: 15px;
+  border-radius: 20px;
+}
+.flex-card-child img {
+  width: 37%;
+}
+.flex-card-conti h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.bg-1 {
+  background-color: rgb(79, 157, 166);
+}
+.bg-2 {
+  background-color: rgba(255, 150, 89, 0.63);
+}
+.bg-3 {
+  background-color: rgb(255, 244, 214);
 }
