@@ -56,8 +56,9 @@
   font-size: 1.2rem;
 }
 .flex-card {
+  box-sizing: border-box;
   display: flex;
-  gap: 100px;
+  gap: 50px;
   padding-top: 2rem;
 }
 .flex-card-child {
@@ -149,11 +150,13 @@ textarea#txtid {
   color: white;
 }
 footer {
+  font-family: "Lobster", cursive;
   display: flex;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.829);
 }
 footer h1 {
+  font-size: 3rem;
   color: white;
   font-family: "Lobster", cursive;
 }
