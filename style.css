@@ -7,7 +7,7 @@
   font-family: Poppins, sans-serif;
 }
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0px auto;
 }
 .flexibal {
@@ -47,7 +47,7 @@
   display: inline-block;
   margin: 4% 2%;
 }
-.half-width p {
+.top-bannar p {
   font-size: 1.2rem;
 }
 .flex-card {
@@ -74,4 +74,33 @@
 }
 .bg-3 {
   background-color: rgb(255, 244, 214);
+}
+
+.coding {
+  background-image: url(./images/shapes/shape-1.png);
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-top: 6rem;
+}
+.coding img {
+  float: right;
+}
+.Community h1 {
+  font-size: 3rem;
+}
+.Community {
+  background-image: url(./images/shapes/shape-1.png);
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-position-y: 120%;
+  padding-top: 6rem;
+}
+.Community img {
+  float: left;
+}
+.Community p {
+  font-weight: 300;
+  font-size: 0.9rem;
 }
