@@ -1,7 +1,52 @@
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   list-style: none;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.flexibal {
+  display: flex;
+  align-items: center;
+}
+.half-width {
+  width: 50%;
+  padding: 2%;
+}
+.half-width img {
+  width: 80%;
+}
+.heading-box {
+  position: relative;
+}
+.line::after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -12px;
+  width: 5px;
+  height: 114px;
+  background-color: rgba(62, 226, 199, 0.678);
+}
+h1 {
+  font-size: 3rem;
+}
+h1.heading {
+  padding-bottom: 2rem;
+}
+.orange-color {
+  color: orange;
+}
+.ancor-link {
+  padding: 10px 40px;
+  background-color: tomato;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  margin: 4% 2%;
 }
